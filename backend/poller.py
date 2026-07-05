@@ -11,7 +11,7 @@ import requests
 # Add parent dir for importing extractor and report_builder
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from extractor import extract_fields
+from extractor import extract as extract_fields
 from report_builder import build_report, build_summary
 
 PRODUCT_ID = "dental-eligibility-agent"
