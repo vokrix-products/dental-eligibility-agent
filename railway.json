@@ -1,0 +1,1 @@
+{"build": {"builder": "NIXPACKS"}, "deploy": {"startCommand": "cd /app/backend && python3 poller.py"}}
